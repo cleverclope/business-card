@@ -1,13 +1,13 @@
 .App {
   text-align: center;
-  width: 500px;
+  width: 400px;
   background-color: #282c34;
   margin: auto;
   margin-top: 20px;
 }
 
 .App-logo {
-  height: 20vmin;
+  height: 15vmin;
   pointer-events: none;
 }
 
@@ -15,9 +15,12 @@ img {
   border-radius: 50%;
   text-align: left;
 }
-h4{
+h4,h3,h2{
   margin: 20px;
   color: #61dafb;
+}
+p{
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -40,6 +43,15 @@ h4{
   color: #61dafb;
 }
 
+.header__socials{
+  flex-direction: row;
+  /* align-items: center; */
+  margin: 15px;
+  color: white;
+  bottom: 3rem;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -48,3 +60,4 @@ h4{
     transform: rotate(360deg);
   }
 }
+
