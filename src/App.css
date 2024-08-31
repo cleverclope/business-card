@@ -11,6 +11,15 @@
   pointer-events: none;
 }
 
+img {
+  border-radius: 50%;
+  text-align: left;
+}
+h4{
+  margin: 20px;
+  color: #61dafb;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

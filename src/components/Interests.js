@@ -1,11 +1,13 @@
-import React from "react";
+import React from "react"
 
-function Interests() {
-  return (
-    <div>
-      <h1>Clever Interests</h1>
-    </div>
-  );
+function Brian(){
+const name = 'zimbe'
+
+  return(
+  <div>
+    <p>hello</p>
+  </div>
+  )
 }
 
-export default Interests;
+export default Brian

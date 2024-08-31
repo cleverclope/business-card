@@ -1,15 +1,14 @@
-import React from "react";
+import React from "react"
+import clever from '../assets/pic.png'
 
-import logo from '../logo.svg'
-
-function Infor() {
-  return (
-    <div>
-     <img src={logo} width={'400px'}/>
-      <h2>ARINDA CLEVER</h2>
-      <h3>Software Developer</h3>
-    </div>
-  );
+function Infor(){
+    return(
+        <div>
+            <img src={clever}/>
+            <h4>Agaba Pellan</h4>
+            <h4>SOftware Engineer</h4>
+        </div>
+    )
 }
 
-export default Infor;
+export default Infor
